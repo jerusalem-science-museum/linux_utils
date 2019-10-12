@@ -21,3 +21,6 @@
 
 ## Add WiFi Network
 ```sudo raspi-config nonint do_wifi_ssid_passphrase wifi_name wifi_pass```
+
+## Run Desktop Over SSH
+```startlxde-pi```

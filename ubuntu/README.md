@@ -2,6 +2,8 @@
 
 ## Install AnyDesk
 ```curl -o /tmp/anydesk.deb https://download.anydesk.com/linux/anydesk_5.1.2-1_amd64.deb && sudo dpkg -i /tmp/anydesk.deb```
+#### Note
+Before a session is closed- touch the mouse on the remote machine (otherwise sometimes it gets stuck).
 
 ## Install Common Packages
 ```sudo apt install -y gnome-tweak-tool openssh-server samba```
